@@ -1,7 +1,7 @@
 
 public class MaximumNumber {
-	public static int findMax(Integer x, Integer y, Integer z) {
-		Integer max = x;
+	public static float findMax(Float x, Float y, Float z) {
+		Float max = x;
 		if (y.compareTo(max) > 0)
 			max = y;
 		if (z.compareTo(max) > 0)
@@ -10,7 +10,7 @@ public class MaximumNumber {
 	}
 
 	public static void main(String[] args) {
-		int maxNumber = MaximumNumber.findMax(2,12,10);
+		float maxNumber = MaximumNumber.findMax(2.5f,12.8f,10.2f);
 		System.out.println("Maximum number :" +maxNumber);
 	}
 }
