@@ -7,8 +7,12 @@ public class MaximumNumber {
 	               max = array[i];
 			  
 		 }
-		 System.out.println("Largest element present in given array: " + max);  
+//		 System.out.println("Largest element present in given array: " + max);
+		 printMax(max);
 		
+	}
+	public static <E> void printMax(E max) {
+		 System.out.println("Largest element present in given array: " + max);  
 	}
 
 	public static void main(String[] args) {
